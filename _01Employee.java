@@ -6,7 +6,7 @@ class EmployeeNotFoundException extends Exception {
     }
 }
 
-public class Employee {
+public class _01Employee {
     private HashMap<Integer, String> employeeMap = new HashMap<>();
 
     public void addEmployee(int id, String name) {
